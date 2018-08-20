@@ -1,0 +1,8 @@
+<p>Hello.</p><br/>
+<div *ngIf="user; else loading">
+   <h1>
+       {{user.email}}
+   </h1>
+</div>
+<ng-template #loading>Loading User Data...</ng-template><br/>
+<button (click)="logOut()">LogOut</button>
