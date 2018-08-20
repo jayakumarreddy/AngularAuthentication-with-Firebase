@@ -12,7 +12,7 @@ import { MembersComponent } from './members/members.component';
 import { AuthService } from './auth.service';
 import { routes } from './app.routes';
 import { AuthGuard } from './auth.guard';
-import { firebaseConfig } from './firbase.config';
+import { firebaseConfig } from './firebase.config';
 
 @NgModule({
   declarations: [
