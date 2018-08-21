@@ -1,4 +1,4 @@
-# Myauthapp
+# Angular Authentication With Firebase
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
@@ -25,3 +25,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This project does not contain the firebase config file. So create a file named firebase.config.ts in the app folder and export your firebase configuration in that file. 
